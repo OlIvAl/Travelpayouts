@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px 150px;
+  grid-template-rows: 16px 50px;
+  grid-column-gap: 10px;
+  grid-row-gap: 7px;
+  grid-template-areas:  'label .'
+                        'input btn';
+}
+  .label {
+    grid-area: label;
+    composes: label from "../../../mixins.css";
+  }
+  .promoInput {
+    grid-area: input;
+    composes: input from "../../../mixins.css";
+  }
+  .btn {
+    grid-area: btn;
+
+    font-size: 19px;
+    line-height: 28px;
+    font-family: Roboto;
+
+    border: 1px solid #CFD2D9;
+    border-radius: 4px;
+    background-color: transparent;
+  }

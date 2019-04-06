@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  background-color: #fff;
+  padding: 15px 30px;
+}
+  .list {
+    margin-right: 25px;
+  }
+    .title {
+      font-family: Roboto;
+      font-size: 13px;
+      line-height: 19px;
+      color: #7D7D7D;
+    }
+    .value {
+      font-family: Rubik;
+      font-size: 19px;
+      line-height: 26px;
+    }

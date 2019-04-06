@@ -1,0 +1,20 @@
+.container {
+  background: #F5F7FA;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: [page-left-side aside-start] 80px [aside-end content-start] auto [content-end];
+  grid-template-rows: [page-top-side] auto [footer-start] 51px [footer-end page-bottom-side];
+
+  grid-template-areas: 'aside content'
+  'aside footer';
+}
+
+.aside {
+  grid-area: aside;
+  background: #1B1D29;
+}
+
+.content {
+  grid-area: content;
+}

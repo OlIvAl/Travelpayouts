@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 
-class App extends Component {
+import Layout from './components/Layout';
+import Services from './components/Services';
+
+class App extends React.Component {
   render() {
     return (
-      <div />
+      <Layout>
+        <Services />
+      </Layout>
     );
   }
 }

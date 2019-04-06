@@ -1,0 +1,69 @@
+.container {
+  padding: 25px 30px;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #E2E5EC;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+.container:last-child {
+  margin-bottom: 0;
+}
+  .serviceDescr {
+    flex: 1;
+    font-family: Roboto;
+    padding-right: 25px;
+  }
+    .title {
+      font-weight: 300;
+      font-size: 29px;
+      line-height: 42px;
+
+      color: #000000;
+    }
+    .description {
+      font-size: 15px;
+      line-height: 22px;
+
+      color: #7D7D7D;
+    }
+  .promoCode {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: 16px 50px;
+    grid-column-gap: 25px;
+    grid-row-gap: 7px;
+
+    grid-template-areas:  'label .'
+                          'input btn';
+  }
+    .label {
+      grid-area: label;
+      composes: label from "../../../mixins.css";
+    }
+    .promoInput {
+      grid-area: input;
+      position: relative;
+    }
+      .promoInputInput {
+        composes: input from "../../../mixins.css";
+      }
+      .promoInput button {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: none;
+        background: transparent;
+      }
+    .btn {
+      grid-area: btn;
+      background: #0085FF;
+      border-radius: 4px;
+      font-family: Roboto;
+      font-size: 19px;
+      line-height: 28px;
+      color: #FFFFFF;
+      border: 0;
+    }
