@@ -1,10 +1,11 @@
 {
-  "bonuses": [{
+  "bonuses": [
+    {
     "title": "Nethouse.ru",
     "description": "Конструктор сайтов",
     "link": "https://nethouse.ru/?p=travelpayouts",
     "promocode": "travelpayouts"
-  },
+    },
     {
       "title": "Appfollow.io",
       "description": "SDK",
@@ -91,7 +92,7 @@
     {
       "title": "Turbotext.ru",
       "description": "Биржа контента",
-      "link": "http://turbotext.ru/promo/129/reg/?utm_source=travelpayouts",
+      "link": "http://turbotext.ru/promo/129/reg/?utm_source=travelpayouts"
     },
     {
       "title": "jivosite.ru",

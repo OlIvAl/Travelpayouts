@@ -8,8 +8,11 @@
     "@types/react": "16.8.12",
     "@types/react-dom": "16.8.3",
     "classnames": "^2.2.6",
+    "i18next": "^15.0.9",
+    "i18next-browser-languagedetector": "^3.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-i18next": "^10.6.1",
     "react-scripts": "2.1.8",
     "typescript": "3.4.1"
   },
@@ -29,6 +32,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@types/classnames": "^2.2.7"
+    "@types/classnames": "^2.2.7",
+    "@types/i18next": "^12.1.0",
+    "@types/react-i18next": "^8.1.0"
   }
 }
